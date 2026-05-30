@@ -31,8 +31,13 @@ DB_NAME=
 ```
 docker-compose up -d
 ```
+6. Ejecutar el seed para llenar la base de datos con productos de ejemplo
 
-6. Levantar el proyecto
+```node
+http://localhost:3000/api/seed
+```
+
+7. Levantar el proyecto
 
 ```
 npm run start:dev
